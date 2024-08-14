@@ -1,0 +1,49 @@
+.container{
+    max-width: 1262px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+h1{
+    font-size: 60px;
+    line-height: 110%;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.block-title{
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 135%;
+}
+.block-title span{
+    color: #F54932;
+    font-weight: 700;
+}
+
+/* Кнопки */
+.btn{
+    max-width: 265px;
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    border: 2px solid #1F1F1F;
+    color: #1F1F1F;
+    font-size: 16px;
+    line-height: 130%;
+    border-radius: 66px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #1F1F1F;
+    color: #fff;
+}
+.btn-dark{
+    background-color: #1F1F1F;
+    color: #fff;
+   
+}
+.btn-dark:hover{
+    background-color: #FBCE51;
+    color: #1F1F1F;
+    border-color: #FBCE51;
+}
